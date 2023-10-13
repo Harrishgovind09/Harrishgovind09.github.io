@@ -1,0 +1,96 @@
+<!--HARRISH GOVIND CODING-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="Style2.css"> 
+</head>
+<body>
+        <div>
+            <a href="Profile.html"><button class="btn">HOME</button></a>
+            <a href="about.html"><button class="btn">ABOUT ME</button></a>
+            <a href="http://www.psp.edu.my/pspweb/index.php?lang=en"><button class="btn">PSP</button></a>
+            <a href="Contact1.html"><button class="btn">CONTACT US</button></a>
+            <hr>
+    </div>
+</body>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="process_registration.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name ="password" required><br>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <input type="radio" id="female" name="gender" value="female">Female<br>
+
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birthdate"><br>
+
+        <label for="State">State:</label>
+        <select id="State" name="State">
+
+            <option value="1">Choose your option</option>
+            <option value="2">Johor</option>
+            <option value="3">Kedah</option>
+            <option value="4">Kelantan</option>
+            <option value="5">Perak</option>
+            <option value="6">Selangor</option>
+            <option value="G">Malacca</option>
+            <option value="H">Negeri Sembilan</option>
+            <option value="I">Pahang</option>
+            <option value="AL">Perlis</option>
+            <option value="AK">Penang</option>
+            <option value="AL">Sabah</option>
+            <option value="AK">Sarawak</option>
+            <option value="AL">Terengganu</option>
+                        
+         </select><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="E.g., (123) 456-7890" pattern="^\(\d{3}\) \d{3}-\d{4}$"><br>
+
+        <label for="Talent">Talent in :</label>
+        <input type="checkbox" id="interest1" name="interests" value="LANGUAGE">HTML
+        <input type="checkbox" id="interest2" name="interests" value="LANGUAGE">JAVA
+        <input type="checkbox" id="interest3" name="interests" value="LANGUAGE">C++
+        <input type="checkbox" id="interest4" name="interests" value="LANGUAGE">PYTHON
+        <input type="checkbox" id="interest5" name="interests" value="LANGUAGE">ADOBE
+        <input type="checkbox" id="interest6" name="interests" value="LANGUAGE">SQL <br>
+
+        <br>
+
+        <input type="submit" value="Register">
+    </form>
+
+     <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>PSP<br>Phone: (123) 456-7890<br>Email: harrishgovind.com</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <a href="https://www.facebook.com/profile.php?id=100090494019441"><img src="facebook-icon.png" alt="Facebook"style="width:150px;height:150px;"></a>
+                    <a href="https://x.com/sai_dhenesh?t=Nxx7w-_5uWrTCX6acGrxxQ&s=08"><img src="twitter-icon.png" alt="Twitter"
+                    style="width:150px;height:150px;"></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=61o5mvd05hc6&utm_content=hjk692r"><img src="instagram-icon.jpeg" alt="Instagram"style="width:150px;height:150px;"></a>
+                </ul>
+            </div>
+</body>
+</html>

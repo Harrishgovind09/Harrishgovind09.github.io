@@ -1,0 +1,58 @@
+/* HARRISH GOVIND CODING*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    background-image: url('IT.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+
+div {
+    text-align: center;
+    
+    padding: 10px;
+}
+
+.btn {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005b9f;
+}
+
+
+header {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header h1 {
+    font-size: 36px;
+}
+
+main {
+     color: white;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+main p {
+    line-height: 1.6;
+}
